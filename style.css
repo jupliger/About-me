@@ -1,0 +1,600 @@
+::-webkit-scrollbar {
+     width: 10px;
+
+
+}
+
+::-webkit-scrollbar-track {
+     /* caminho da barra
+     sombra na barra*/
+
+     background: #dacaf9;
+     width: 6px;
+}
+
+span{
+   color: #fff; 
+}
+
+/* tamanho barrinha da barra de rolagem kk*/
+::-webkit-scrollbar-thumb {
+     background: #9e6da5;
+     border-radius: 30px;
+
+}
+
+body {
+     background-color: #fff;
+     font-family: Montserrat;
+}
+
+header {
+
+     background-color: #27272b;
+     display: flex;
+     justify-content: center;
+     align-content: center;
+     position: sticky;
+     top: 0;
+     flex-wrap: wrap;
+     flex-direction: column;
+     text-align: center;
+
+
+}
+
+.header-container {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+}
+
+.header-container h2 {
+
+     font-weight: bolder;
+     font-family: Montserrat;
+     font-size: 35px;
+     margin-bottom: 5px;
+     margin-right: 20px;
+     color: blueviolet;
+}
+
+strong {
+     font-weight: bolder;
+     font-family: Montserrat;
+}
+
+.header-container a {
+     margin: 10px;
+     color: white;
+     text-decoration: none;
+     background-color: blueviolet;
+     font-family: 'Montserrat', sans-serif;
+     width: 80px;
+     height: 20px;
+     display: flex;
+     flex-direction: row;
+     align-content: center;
+     justify-content: center;
+     align-items: center;
+     border-radius: 3px;
+     font-weight: 400;
+     text-transform: capitalize;
+     flex-wrap: wrap;
+     font-size: 10px;
+}
+
+
+.header-container a:hover {
+     background-color: rgb(116, 35, 192);
+}
+
+.header-container i {
+     margin: 5px;
+}
+
+.destaque {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     background-color: #0a090c;
+     color: white;
+     padding-top: 50px;
+     flex-wrap: wrap;
+     padding:  15px 0px 15px 15px;
+}
+
+h1 {
+     font-family: Montserrat;
+     font-size: 50px;
+     font-weight: bolder;
+}
+
+h3 {
+     font-family: Montserrat;
+     font-size: 40px;
+     margin-bottom: 5px;
+}
+
+h4 {
+     font-family: Montserrat;
+     font-size: 24px;
+     margin-bottom: 5px;
+}
+
+p {
+     font-family: Montserrat;
+}
+
+.destaque img {
+     width: 90%;
+
+
+}
+
+#name {
+     color: rgb(161, 61, 255);
+     margin-bottom: 10px;
+}
+
+#name:hover {
+     color: #fd9304;
+}
+
+
+#profile {
+     width: 50%;
+     border-radius: 100%;
+     border: solid blueviolet 10px;
+     margin-bottom: 20px;
+}
+
+.tecnologies {
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: row;
+     margin-top: 50px;
+     flex-wrap: wrap;
+}
+
+h2 {
+     font-weight: bolder;
+     font-family: Montserrat;
+     font-size: 18px;
+     margin-bottom: 5px;
+     color: blueviolet;
+}
+
+h2:hover {
+     color: #fd9304;
+}
+
+.about-text {
+     width: 50%;
+}
+
+.about-text p {
+     margin-bottom: 20px;
+}
+
+.tecnologies-container {
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+     flex-direction: row;
+     flex-wrap: wrap;
+
+}
+
+.ph-browsers {
+     font-size: 30px;
+     padding-right: 185px;
+     color: blueviolet;
+}
+
+.tecnologies-container-item {
+     margin: 10px;
+     width: 259px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     flex-wrap: wrap;
+}
+
+.tecnologies-container-item img {
+     height: 50px;
+     margin-bottom: 5px;
+}
+
+.ph-star-fill {
+     color: blueviolet;
+     font-size: small;
+}
+
+.sidebar-skills-item {
+     margin-bottom: 5px;
+     font-family: Montserrat;
+
+}
+
+.top {
+     position: sticky;
+     bottom: 0;
+     padding-left: 85%;
+     scroll-behavior: smooth;
+     margin-bottom: 2%;
+}
+
+
+.top div {
+     width: 10%;
+}
+
+.top img:hover {
+     border: solid white 2px;
+     border-radius: 100%;
+
+}
+
+.ph-arrow-circle-up-fill {
+     font-size: 50px;
+     color: blueviolet;
+}
+
+
+.byjus {
+     margin-top: 120px;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+}
+
+.byjus-pic {
+     width: 80%;
+}
+
+.byjus-pic img {
+     width: 80%;
+     box-shadow: 20px 20px blueviolet;
+}
+
+.byjus-text {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     width: 80%;
+     flex-wrap: wrap;
+     justify-content: center;
+
+}
+
+.byjus-text h4 {
+     margin-bottom: 20px;
+}
+
+
+.b3 {
+     margin-top: 120px;
+     display: flex;
+     flex-direction: row-reverse;
+     align-items: flex-start;
+     justify-content: center;
+     flex-wrap: wrap;
+     padding:  15px 0px 15px 15px;
+}
+
+.b3-text {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: center;
+     flex-wrap: wrap;
+     width: 90%;
+
+}
+
+.b3-text h4 {
+     margin-top: 20px;
+}
+.b3-text h3 {
+     margin-top: 50px;
+}
+
+.b3 img {
+     box-shadow: 20px 20px blueviolet;
+
+     width: 90%
+}
+
+
+@media screen and (min-width: 1200px) {
+     header {
+          padding: 10px;
+          background-color: #27272b;
+          display: flex;
+          justify-content: center;
+          align-content: center;
+          position: sticky;
+          top: 0;
+          flex-direction: row;
+
+     }
+
+     .header-container {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+     }
+
+     .header-container h2 {
+          font-weight: bolder;
+          font-family: Montserrat;
+          font-size: 40px;
+          margin-bottom: 5px;
+          color: blueviolet;
+     }
+
+     strong {
+          font-weight: bolder;
+          font-family: Montserrat;
+     }
+
+     .header-container a {
+          margin: 20px;
+          color: white;
+          text-decoration: none;
+          background-color: blueviolet;
+          font-family: 'Montserrat', sans-serif;
+          width: 130px;
+          height: 40px;
+          display: flex;
+          flex-direction: row;
+          align-content: center;
+          justify-content: center;
+          align-items: center;
+          border-radius: 3px;
+          font-weight: 400;
+          text-transform: capitalize;
+
+     }
+
+
+     .header-container a:hover {
+          background-color: rgb(116, 35, 192);
+     }
+
+     .header-container i {
+          margin: 5px;
+     }
+
+     .destaque {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          background-color: #0a090c;
+          color: white;
+          padding-bottom: 50px;
+          padding-top: 50px;
+
+     }
+
+     h1 {
+          font-family: Montserrat;
+          font-size: 50px;
+          font-weight: bolder;
+     }
+
+     h3 {
+          font-family: Montserrat;
+          font-size: 40px;
+          margin-bottom: 5px;
+     }
+
+     h4 {
+          font-family: Montserrat;
+          font-size: 24px;
+          margin-bottom: 5px;
+     }
+
+     p {
+          font-family: Montserrat;
+     }
+
+     .destaque img {
+          width: 40%;
+          margin-left: 50px;
+
+     }
+
+     #name {
+          color: rgb(161, 61, 255);
+          margin-bottom: 10px;
+     }
+
+     #name:hover {
+          color: #fd9304;
+     }
+
+
+     #profile {
+          width: 20%;
+          margin-left: 50px;
+          border-radius: 100%;
+          border: solid blueviolet 10px;
+          margin-bottom: 20px;
+     }
+
+     .tecnologies {
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: row;
+          margin-top: 50px;
+          flex-wrap: wrap;
+          margin-left: 0px;
+     }
+
+     h2 {
+          font-weight: bolder;
+          font-family: Montserrat;
+          font-size: 60px;
+          margin-bottom: 5px;
+          color: blueviolet;
+     }
+
+     h2:hover {
+          color: #fd9304;
+     }
+
+     .about-text {
+          width: 50%;
+     }
+
+     .about-text p {
+          margin-bottom: 20px;
+     }
+
+     .tecnologies-container {
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          flex-direction: row;
+          flex-wrap: wrap;
+
+     }
+
+     .ph-browsers {
+          font-size: 30px;
+          padding-right: 185px;
+          color: blueviolet;
+     }
+
+     .tecnologies-container-item {
+          margin: 10px;
+          width: 259px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+     }
+
+     .tecnologies-container-item img {
+          height: 50px;
+          margin-bottom: 5px;
+     }
+
+     .ph-star-fill {
+          color: blueviolet;
+          font-size: small;
+     }
+
+     .sidebar-skills-item {
+          margin-bottom: 5px;
+          font-family: Montserrat;
+
+     }
+
+     .top {
+          position: sticky;
+          bottom: 0;
+          padding-left: 88%;
+          scroll-behavior: smooth;
+          margin-bottom: 2%;
+     }
+
+
+     .top div {
+          width: 10%;
+     }
+
+     .top img:hover {
+          border: solid white 2px;
+          border-radius: 100%;
+
+     }
+
+     .ph-arrow-circle-up-fill {
+          font-size: 50px;
+          color: blueviolet;
+     }
+
+
+     .byjus {
+          margin-top: 120px;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+     }
+
+     .byjus-pic{
+          width: 500px;
+     }
+     .byjus-pic img {
+          width: 500px;
+          margin-left: 30px;
+          box-shadow: 20px 20px blueviolet;
+     }
+
+     .byjus-text {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: center;
+          width: 500px;
+
+     }
+     .byjus-text li {
+          margin-top: 20px;
+          font-family: Montserrat;
+
+     }
+
+     .byjus-text ul {
+         padding-left: 25px;
+     }
+
+     .byjus-text h4 {
+          margin-bottom: 20px;
+     }
+
+     
+     .b3 {
+          margin-top: 100px;
+          display: flex;
+          flex-direction: row-reverse;
+          align-items: flex-start;
+          justify-content: center;
+     }
+
+     .b3-text {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: center;
+          width: 500px;
+
+     }
+
+     .b3-text h4 {
+          margin-bottom: 20px;
+     }
+
+     .b3 img {
+          box-shadow: 20px 20px blueviolet;
+          margin-left: 80px;
+          width: 320px
+     }
+
+}
