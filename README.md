@@ -15,6 +15,6 @@ Version Control: Git
 Bonus: Experience with EAM components, Tracking, and Analytics
 
 Contact:
-https://www.linkedin.com/in/juliana-pliger/
-jupliger7@gmail.com
-+55 41 997393176 (WhatsApp)
+- https://www.linkedin.com/in/juliana-pliger/
+- jupliger7@gmail.com
+- +55 41 997393176 (WhatsApp)
