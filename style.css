@@ -121,7 +121,7 @@ h3 {
 
 h4 {
      font-family: Montserrat;
-     font-size: 24px;
+     font-size: 16px;
      margin-bottom: 5px;
 }
 
@@ -146,7 +146,7 @@ p {
 
 
 #profile {
-     width: 50%;
+     width: 30%;
      border-radius: 100%;
      border: solid blueviolet 10px;
      margin-bottom: 20px;
@@ -206,6 +206,9 @@ h2:hover {
      flex-direction: column;
      flex-wrap: wrap;
 }
+.tecnologies-container-item h4 {
+     font-size: 16px;
+}
 
 .tecnologies-container-item img {
      height: 50px;
@@ -249,12 +252,13 @@ h2:hover {
 
 
 .byjus {
-     margin-top: 120px;
+     margin-top: 90px;
      display: flex;
      flex-direction: row;
      align-items: center;
      justify-content: center;
      flex-wrap: wrap;
+     font-size: 16px;
 }
 
 .byjus-pic {
@@ -281,37 +285,45 @@ h2:hover {
 }
 
 
-.b3 {
-     margin-top: 120px;
+.bayer {
+     margin-top: 45px;
      display: flex;
-     flex-direction: row-reverse;
-     align-items: flex-start;
+     flex-direction: row;
+     align-items: center;
      justify-content: center;
      flex-wrap: wrap;
-     padding:  15px 0px 15px 15px;
+     font-size: 16px;
 }
 
-.b3-text {
+.bayer-text {
      display: flex;
      flex-direction: column;
      align-items: flex-start;
      justify-content: center;
      flex-wrap: wrap;
-     width: 90%;
+     width: 80%;
 
 }
-
-.b3-text h4 {
-     margin-top: 20px;
+.bayer-text-title{
+     margin: auto;
+     text-align:center;
+     font-size: 14px;
 }
-.b3-text h3 {
+
+.bayer-text h4 {
+     margin-bottom: 20px;
+}
+.bayer-text h3 {
      margin-top: 50px;
 }
 
-.b3 img {
-     box-shadow: 20px 20px blueviolet;
+.bayer-pic {
+     width: 80%;
+}
 
-     width: 90%
+.bayer-pic img {
+     width: 80%;
+     box-shadow: 20px 20px blueviolet;
 }
 
 
@@ -401,6 +413,12 @@ h2:hover {
      }
 
      h4 {
+          font-family: Montserrat;
+          font-size: 15px;
+          margin-bottom: 5px;
+     }
+     
+     li {
           font-family: Montserrat;
           font-size: 24px;
           margin-bottom: 5px;
@@ -570,15 +588,15 @@ h2:hover {
      }
 
      
-     .b3 {
+     .bayer {
           margin-top: 100px;
           display: flex;
-          flex-direction: row-reverse;
-          align-items: flex-start;
+          flex-direction: row;
+          align-items: center;
           justify-content: center;
      }
 
-     .b3-text {
+     .bayer-text {
           display: flex;
           flex-direction: column;
           align-items: flex-start;
@@ -587,14 +605,17 @@ h2:hover {
 
      }
 
-     .b3-text h4 {
+     .bayer-text h4 {
           margin-bottom: 20px;
      }
 
-     .b3 img {
-          box-shadow: 20px 20px blueviolet;
-          margin-left: 80px;
-          width: 320px
+     .bayer-pic{
+          width: 500px;
      }
 
+     .bayer-pic img {
+          width: 500px;
+          margin-left: 30px;
+          box-shadow: 20px 20px blueviolet;
+     }
 }
