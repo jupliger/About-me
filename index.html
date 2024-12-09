@@ -12,55 +12,129 @@
      <link rel="icon" type="image/x-icon" href="assets/logo.png">
      <link rel="stylesheet" href="reset.css">
      <link rel="stylesheet" href="style.css">
-     <title> Juliana Pliger </title>
+     <title>Juliana Pliger</title>
 </head>
 
 <body>
      <main>
           <header>
-               <h2>Juliana Pliger</h2>
-               
-             
+               <a href="#" onclick="location.reload();">
+                    <img id="logo" src="./assets/logo.png" alt="Logo" />
+               </a>
                <div class="header-container">
-
-                   
-
-                    <a href="https://github.com/jupliger" target="_blank">
-                         <i id="icone" class="ph-github-logo-fill"></i>
-                         git hub
-                    </a>
-
-
-                    <a href="https://api.whatsapp.com/send?phone=5541997393176" target="_blank">
-                         <i class="ph-whatsapp-logo"></i>
-                         whatsapp
-                    </a>
-
-                    <a href="https://www.linkedin.com/in/juliana-pliger/" target="_blank">
-                         <i class="ph-linkedin-logo-fill"></i>
-                         Linkedin
-                    </a>
+                    <a href="#skills">Skills</a>
+                    <a href="#trajetoria">Trajetória</a>
+                    <a href="#sobre-mim">Sobre Mim</a>
+                    <a href="#contato">Contato</a>
                </div>
-
+               <button class="menu-toggle">
+                    <i class="ph-list"></i>
+               </button>
           </header>
 
           <section class="destaque">
                <div class="destaque-container">
-                    <h3>Hi, I'm</h3>
-                    <h1 id="name">Juliana Pliger</h1>
-                    <h3>A Web Front End Developer</h3>
-                    <h4>Computer Science - FMU | 2026</h4>
-                    <p>São Paulo-SP</p>
+                    <h3>Oii, eu sou a Juliana Pliger!</h3>
+                    <h1 id="dev" class="animated-text">Desenvolvedora<br> <span id="animated-name">JavaScript</span>
+                    </h1>
 
                </div>
-               <img src="./assets/message.jpg">
+               <img id='profile' src="./assets/profile.png" alt="Juliana Pliger">
+               <h3>"As invenções são, sobretudo, o resultado de <strong>um trabalho teimoso</strong>." <br> Santos Dumont</h3>
+               <button id="download-btn">Ver Currículo</button>
           </section>
 
-          <section class="tecnologies">
-               <img id="profile" src="./assets/profile.jpeg">
+          <section class="skills" id="skills">
+               <div class="marquee">
+                    <ul>
+                         <li>JavaScript</li>
+                         <li>TypeScript</li>
+                         <li>NextJs</li>
+                         <li>React</li>
+                         <li>React Native</li>
+                         <li>Redux</li>
+                         <li>Rest</li>
+                         <li>Angular</li>
+                         <li>NodeJs</li>
+                         <li>HTML</li>
+                         <li>CSS</li>
+                         <li>Tailwind</li>
+                         <li>Bootstrap</li>
+                         <li>MySQL</li>
+                         <li>Postman</li>
+                         <li>Firebase</li>
+                         <li>Scrum</li>
+                         <li>Kaban</li>
+                         <li>Azure</li>
+                         <li>Aha!</li>
+                         <li>Monday</li>
+                         <li>Asana</li>
+                         <li>Trello</li>
+                         <li>Storybook</li>
+                         <li>Adobe Cloud</li>
+                         <li>AWS</li>
+                         <li>GIT</li>
+                         <li>WSL</li>
+                         <li>Analytics</li>
+                         <li>Figma</li>
+                         <li>UX/UI</li>
+                         <li>Fundamentos de Cyber Security</li>
+                         <li>Discovery</li>
+                         <li>POC</li>
+                         <li>JavaScript</li>
+                         <li>TypeScript</li>
+                         <li>NextJs</li>
+                         <li>React</li>
+                         <li>React Native</li>
+                         <li>Redux</li>
+                         <li>Rest</li>
+                         <li>Angular</li>
+                         <li>NodeJs</li>
+                         <li>HTML</li>
+                         <li>CSS</li>
+                         <li>Tailwind</li>
+                         <li>Bootstrap</li>
+                         <li>MySQL</li>
+                         <li>Postman</li>
+                         <li>Firebase</li>
+                         <li>Scrum</li>
+                         <li>Kaban</li>
+                         <li>Azure</li>
+                         <li>Aha!</li>
+                         <li>Monday</li>
+                         <li>Asana</li>
+                         <li>Trello</li>
+                         <li>Storybook</li>
+                         <li>Adobe Cloud</li>
+                         <li>AWS</li>
+                         <li>GIT</li>
+                         <li>WSL</li>
+                         <li>Analytics</li>
+                         <li>Figma</li>
+                         <li>UX/UI</li>
+                         <li>Fundamentos de Cyber Security</li>
+                         <li>Discovery</li>
+                         <li>POC</li>
+                    </ul>
+               </div>
+
+               <h2 id="skills-title">Skills</h2>
+
                <div class="tecnologies-container">
                     <div class="tecnologies-container-item">
-                         <img src="./assets/js.png">
+                         <img src="./assets/extra.png" alt="React, Next, Angular e Flutter">
+                         <h4>React | Next | Angular</h4>
+                         <div class="tecnologies-container-item-score">
+                              <i class="ph-star-fill"></i>
+                              <i class="ph-star-fill"></i>
+                              <i class="ph-star-fill"></i>
+                              <i class="ph-star-fill"></i>
+                              <i class="ph-star-fill"></i>
+                         </div>
+                    </div>
+
+                    <div class="tecnologies-container-item">
+                         <img src="./assets/js.png" alt="JavaScript e TypeScript">
                          <h4>JavaScript | TypeScript</h4>
                          <div class="tecnologies-container-item-score">
                               <i class="ph-star-fill"></i>
@@ -72,7 +146,7 @@
                     </div>
 
                     <div class="tecnologies-container-item">
-                         <img src="./assets/html-css.png">
+                         <img src="./assets/html-css.png" alt="TailWind e BootStrap">
                          <h4>TailWind | BootStrap</h4>
                          <div class="tecnologies-container-item-score">
                               <i class="ph-star-fill"></i>
@@ -81,14 +155,12 @@
                               <i class="ph-star-fill"></i>
                               <i class="ph-star-fill"></i>
                          </div>
-
                     </div>
 
                     <div class="tecnologies-container-item">
-                         <img src="./assets/extra.png">
-                         <h4>React | Next | Angular | Flutter</h4>
+                         <img src="./assets/cloud.png" alt="Node Js">
+                         <h4>AWS | AEM (Adobe Cloud)</h4>
                          <div class="tecnologies-container-item-score">
-                              <i class="ph-star-fill"></i>
                               <i class="ph-star-fill"></i>
                               <i class="ph-star-fill"></i>
                               <i class="ph-star-fill"></i>
@@ -97,8 +169,8 @@
                     </div>
 
                     <div class="tecnologies-container-item">
-                         <img src="./assets/node.png">
-                         <h4>Node Js</h4>
+                         <img src="./assets/node.png" alt="Node Js">
+                         <h4>Node Js | Nest Js</h4>
                          <div class="tecnologies-container-item-score">
                               <i class="ph-star-fill"></i>
                               <i class="ph-star-fill"></i>
@@ -107,7 +179,17 @@
                     </div>
 
                     <div class="tecnologies-container-item">
-                         <img src="./assets/database.png">
+                         <img src="./assets/python-logo-only.png" alt="Node Js">
+                         <h4>Python</h4>
+                         <div class="tecnologies-container-item-score">
+                              <i class="ph-star-fill"></i>
+                              <i class="ph-star-fill"></i>
+                              <i class="ph-star-fill"></i>
+                         </div>
+                    </div>
+
+                    <div class="tecnologies-container-item">
+                         <img src="./assets/database.png" alt="Data Base, Analytics e PostMan">
                          <h4>Data Base | Analytics | PostMan</h4>
                          <div class="tecnologies-container-item-score">
                               <i class="ph-star-fill"></i>
@@ -119,52 +201,146 @@
                     <div class="tecnologies-container-item">
                          <i class="ph-browsers"></i>
                          <ul>
-                              <li class="sidebar-skills-item">NPM, PNPM, Yarn</li>
-                              <li class="sidebar-skills-item">Git, GitHub</li>
-                              <li class="sidebar-skills-item">Linux, WSL, bash/shell</li>
-                              <li class="sidebar-skills-item">Azure, Aha!</li>
-                              <li class="sidebar-skills-item">Agile, Scrum</li>
-                              <li class="sidebar-skills-item">UX/UI, Figma</li>
+                              <li class="sidebar-skills-item">NPM, PNPM, Yarn, Git, GitHub,Linux, WSL, bash/shell,
+                                   Azure,
+                                   Aha!, Agile, Scrum, UX/UI, Figma e muito + </li>
                          </ul>
-
-
                     </div>
                </div>
           </section>
 
-          <section class="bayer">
-               <div class="bayer-text">
-                    <h4 class="bayer-text-title">
-                         Learning | Resilience | Challenge
-                    </h4>
-                    <h4>Global Challenges with <strong>Award-Winning</strong> Projects in Agriculture</h4>
-                    <h4>
-                         Partner Experience and Farmer Experience are the two most important projects within <strong>Bayer’s Crop Science division.</strong> I had the opportunity to contribute to the development of these tools, which collectively serve the U.S., Canada, Brazil, Argentina, and all of Europe. 
-                    </h4>
+          <section class="soft-skills" id="soft-skills">
+               <h2>Soft Skills</h2>
+               <div class="soft-skills-container">
+                   <div class="soft-skill-card">
+                       <h4 id="soft-skill-1">Comunicação</h4>
+                   </div>
+                   <div class="soft-skill-card">
+                       <h4 id="soft-skill-2">Trabalho em equipe</h4>
+                   </div>
+                   <div class="soft-skill-card">
+                       <h4 id="soft-skill-3">Adaptabilidade</h4>
+                   </div>
+                   <div class="soft-skill-card">
+                       <h4 id="soft-skill-4">Resolução de problemas</h4>
+                   </div>
+                   <div class="soft-skill-card">
+                       <h4 id="soft-skill-5">Gestão de tempo</h4>
+                   </div>
+                   <div class="soft-skill-card">
+                       <h4 id="soft-skill-6">Empatia</h4>
+                   </div>
+                   <div class="soft-skill-card">
+                       <h4 id="soft-skill-7">Pensamento crítico</h4>
+                   </div>
+                   <div class="soft-skill-card">
+                       <h4 id="soft-skill-8">Liderança</h4>
+                   </div>
+                   <div class="soft-skill-card">
+                       <h4 id="soft-skill-9">Creatividade</h4>
+                   </div>
+                   <div class="soft-skill-card">
+                       <h4 id="soft-skill-10">Inteligência emocional</h4>
+                   </div>
                </div>
-               <div class="bayer-pic">
-                    <img src="./assets/bayer.jpg" />
+           </section>
+          <section class="conquistas">
+               <h2>Conquistas</h2>
+               <ul>
+                    <li><strong>POC Analytics - adoção global:</strong> Refatoração com mais de 10.000 linhas de código
+                         no analytics, o novo conceito foi adotado por mais 5 países.</li>
+                    <li><strong>Brazil Innovation Sprint Awards - The Analyzer:</strong> Recebi um prêmio por colaborar
+                         significativamente para o projeto Agro Bayer.</li>
+                    <li><strong>Mil horas de Programação:</strong> Mais de mil horas ministrando aulas usando
+                         Javascript, React / React Native, HTML, CSS e NodeJs.</li>
+                    <li><strong>Entrega Bem Sucedida:</strong> Entrega de plataforma global no Agro com equipes LATAM e
+                         USA.</li>
+               </ul>
+          </section>
+          <section class="experiencia" id="trajetoria">
+               <h2>Trajetória</h2>
+               <div class="experiencia-item">
+                    <h3>Bayer – Desenvolvedor web</h3>
+                    <p>fev de 2023 até o momento - São Paulo, Brasil · Híbrida</p>
+                    <ul>
+                         <li>Responsável por um projeto de refatoração com mais de 10.000 linhas de código no analytics,
+                              o novo conceito foi adotado por mais 5 países.</li>
+                         <li>Brazil Innovation Sprint Awards - The Analyzer (Analytics / Metrics) - Most involved data
+                              contributor.</li>
+                         <li>Integração de componentes com o Adobe AEM e AWS.</li>
+                         <li>Integração com o banco de dados e consumo de APIs.</li>
+                         <li>Garantia de uma interface de usuário contínua e responsiva.</li>
+                         <li>Implementação de testes unitários com Jest.</li>
+                         <li>Escrita de documentações e melhoria da qualidade geral do código.</li>
+                         <li>Apresentação de novas features para os times globais em reuniões de demonstração.</li>
+                         <li>Discussão com o time técnico sobre requisitos, desempenho, design e tecnologias emergentes.
+                         </li>
+                         <li>Colaboração com as áreas de negócio para alinhar requisitos técnicos com os objetivos
+                              estratégicos da empresa.</li>
+                    </ul>
+               </div>
+               <div class="experiencia-item">
+                    <h3>Byju’s Future School – Professora de Programação</h3>
+                    <p>fevereiro de 2021 até janeiro de 2023 - São Paulo, Brasil · Remoto</p>
+                    <ul>
+                         <li>Ensinava crianças e adolescentes a se tornarem futuros desenvolvedores do zero.</li>
+                         <li>Foco em desenvolver jogos, aplicativos e páginas web.</li>
+                         <li>A grade do curso incluía desde fundamentos e lógica de programação a processos de machine
+                              learning.</li>
+                         <li>Plataformas: MIT, VScode e Expo.</li>
+                         <li>IDE de Desenvolvimento: ROBLOX STUDIO e VSCODE.</li>
+                    </ul>
                </div>
           </section>
-          <section class="byjus">
-               <div class="byjus-text">
-                    <h4> More than <strong>1.000</strong> hours of teaching programming classes. </h4>
-                    <h4>
-                        Over <strong>50</strong> students from all over Brazil who consistently rank in the <strong>TOP 1# worldwide </strong>at Byjus Future School.
-                    </h4>
+
+
+          <section class="sobre" id="sobre-mim">
+               <h2>A peça atrás do computador</h2>
+               <div class="sobre-conteudo">
+
+                    <p>
+                         Sou uma zillenium apaixonada por tecnologia. A programação pra mim é mais do que trabalho, é uma forma de ver o mundo pelos bastidores e uma ferramenta poderosa, que me abriu muitas portas e me ajudou a <strong>alcançar sonhos.</strong>
+                         <br>
+                         Minha jornada começou com C#, quando entrei na faculdade com <strong>17 anos</strong>, minha paixão por jogos e minhas habilidades em desenhar me levou a cursar <strong>Desenvolvimento de Jogos e Aplicativos</strong>, e ao longo dos anos, expandi meu conhecimento principalmente no <strong>Frontend</strong>. Amo a sensação de resolver problemas complexos, parece até um gol do Brasil na copa.
+                         <br>
+                         Além de codificar, sou uma grande entusiasta de <strong>Design</strong>, após terminar a faculdade em 2016, fiz muitos trabalhos freelancer como renda extra. Já usava metodologias ágeis como <strong>Scrum e Kanban</strong>, que me ajudam a manter a organização e a eficiência nas entregas. O que curiosamente me levou a trabalhar também com eventos, onde eu definitivamente refinei todas as minhas <strong>soft skills.</strong>
+                         <br>
+                         Fora do mundo da tecnologia, sou uma pessoa que valoriza a família e os amigos. Adoro viajar, planejar viagens e conhecer novas culturas. Essas experiências me ajudam a manter a mente aberta e a criar novas <strong>perspectivas</strong>. Além de claro jogar um video game e assistir o jogo do Pittsburgh Steelers no domingo comendo besteira!
+                         <br>
+                         Estou sempre em busca de novos <strong>desafios</strong> e oportunidades para crescer, tanto profissionalmente quanto pessoalmente. Se você quiser saber mais sobre mim ou discutir possíveis colaborações, sinta-se à vontade para entrar em contato! Podemos marcar de tomar um café :D
+                    </p>
+                    <img src="./assets/about-me.jpeg">
                </div>
-               <div class="byjus-pic">
-                    <img src="./assets/alunos.png" />
-               </div>
+
           </section>
+          <section class="contato" id="contato">
+               <h2>Contato</h2>
+               <a href="https://github.com/jupliger" target="_blank">
+                    <i id="icone" class="ph-github-logo-fill"></i>
+                    GitHub
+               </a>
+               <a href="https://api.whatsapp.com/send?phone=5541997393176" target="_blank">
+                    <i class="ph-whatsapp-logo"></i>
+                    WhatsApp
+               </a>
+               <a href="https://www.linkedin.com/in/juliana-pliger/" target="_blank">
+                    <i class="ph-linkedin-logo-fill"></i>
+                    LinkedIn
+               </a>
+          </section>
+
+          <footer>
+
+               <p>&copy; 2024 Juliana Pliger. Todos os direitos reservados.</p>
+          </footer>
 
           <div class="top">
                <a href="#">
                     <i class="ph-arrow-circle-up-fill"></i>
                </a>
           </div>
-
      </main>
+     <script src="script.js"></script>
 </body>
 
 </html>
