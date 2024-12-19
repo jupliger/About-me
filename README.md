@@ -1,6 +1,6 @@
 Software Developer | Technology Enthusiast | Problem Solver
 
-I am a software developer with 3 years of experience in creating web applications. My passion for technology has led me to explore the world of programming, frameworks, and agile methodologies. I am a dedicated problem solver, always seeking efficient ways to turn ideas into functional code.
+I am a software developer with 4 years of experience in creating web applications. My passion for technology has led me to explore the world of programming, frameworks, and agile methodologies. I am a dedicated problem solver, always seeking efficient ways to turn ideas into functional code.
 
 Link to the page: https://jupliger.github.io/About-me/
 
