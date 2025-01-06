@@ -108,7 +108,8 @@ button:hover {
      text-align: center;
      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-.destaque strong{
+
+.destaque strong {
      font-weight: 800;
      color: var(--color4);
 }
@@ -186,17 +187,20 @@ button:hover {
      height: auto;
      border-radius: 10%;
      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.171);
-     
+
 }
-.sobre strong{
+
+.sobre strong {
      font-weight: 800;
      color: var(--color4);
 }
+
 /* Seção de habilidades */
 .skills {
      text-align: center;
      background-color: #f9f9f9;
-     justify-content: center; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     justify-content: center;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .skills h2 {
@@ -267,7 +271,7 @@ button:hover {
      flex-direction: column;
 }
 
-.tecnologies-container-item:hover{
+.tecnologies-container-item:hover {
      box-shadow: 5px 5px 5px 5px #f2529d44;
 }
 
@@ -311,57 +315,60 @@ button:hover {
      }
 }
 
-.soft-skills{
+.soft-skills {
      display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 20px;
-    justify-content: center; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     flex-direction: column;
+     align-items: center;
+     padding-bottom: 20px;
+     justify-content: center;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
- 
+
 .soft-skills h2 {
      font-weight: 800;
      font-size: 24px;
      color: var(--color3);
      text-align: center;
      padding: 20px;
- }
- .soft-skills-container{
-     display: flex;
-         flex-wrap: wrap;
-         flex-direction: row;
-         align-items: center;
-         justify-content: center;
- }
- .soft-skill-card {
-     display: flex;
-         margin: 10px;
-         padding: 10px;
-         background-color: #fff;
-         border: 1px solid #ddd;
-         border-radius: 8px;
-         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-         text-align: center;
-         align-items: flex-start;
-         flex-wrap: wrap;
- }
+}
 
- .soft-skill-card:hover{
+.soft-skills-container {
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+}
+
+.soft-skill-card {
+     display: flex;
+     margin: 10px;
+     padding: 10px;
+     background-color: #fff;
+     border: 1px solid #ddd;
+     border-radius: 8px;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     text-align: center;
+     align-items: flex-start;
+     flex-wrap: wrap;
+}
+
+.soft-skill-card:hover {
      background-color: var(--color3);
      color: var(--color1);
- }
- 
- .soft-skills li {
+}
+
+.soft-skills li {
      font-size: 1.2em;
      margin-bottom: 10px;
- }
+}
 
 /* Seção de conquistas */
 .conquistas {
      background-color: var(--color5);
      padding: 40px 20px;
      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-     margin: 20px 0;
+     margin: 0px 0;
 }
 
 .conquistas h2 {
@@ -503,6 +510,135 @@ button:hover {
      justify-content: center;
 }
 
+.projects-container {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-content: center;
+     padding: 0 0 30px 0;
+ }
+ 
+ .projects-item {
+     display: flex;
+         width: 45%;
+         margin: 10px;
+         padding: 10px;
+         background-color: #fff;
+         border: 1px solid #ddd;
+         border-radius: 8px;
+         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+         text-align: center;
+         align-items: flex-start;
+         justify-content: space-evenly;
+         flex-direction: column;
+        
+ }
+ 
+ .projects-imgs {
+     width: 100%;
+ }
+ 
+ .projects-imgs-ideia {
+     width: 20%;
+ }
+ 
+ .Projects h3 {
+     font-weight: 800;
+     font-size: 25px;
+     margin-bottom: 20px;
+     color: var(--color3);
+ }
+
+ .Projects h2 {
+     font-weight: 800;
+     font-size: 25px;
+     margin-bottom: 20px;
+     color: var(--color3);
+     margin-top: 25px;
+ }
+
+ .project-textContent {
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+     justify-content: center;
+ }
+ 
+ .project-description {
+     text-align: start;
+     margin: 20px 20px 0px 20px;
+ }
+ 
+
+ .project-description strong{
+     color: var(--color4);
+     font-weight: 800;
+ }
+
+ .highlight{
+     color: var(--color4);
+     font-weight: 800;
+     margin-left: 20px;
+     margin-top: 15px;
+ }
+
+ .project-tecnologies {
+     margin-top: 30px;
+     font-size: 13px;
+     margin-bottom: 10px;
+     color: var(--color1);
+     background-color: var(--color4);
+     border-radius: 10px;
+     width: 107px;
+     height: 25px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: nowrap;
+     margin: 9px;
+ }
+ 
+ .projects-tecnologies-container {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: flex-start;
+     margin-top: 20px;
+ }
+ 
+ .Projects h2 {
+     font-weight: 800;
+     font-size: 30px;
+     margin-bottom: 20px;
+     color: var(--color3);
+     text-align: center;
+ }
+
+ .ph-star-fill{
+     color: var(--color4);
+    font-size: smaller;
+ }
+
+ .see-more-btn{
+     background-color: var(--color3);
+     width: 150px;
+     height: 40px;
+     align-items: center;
+     display: flex;
+     justify-content: center;
+     color: var(--color1);
+     border-radius: 8px;
+     margin-top: 20px;
+     font-size: large;
+     
+ }
+
+ .see-more-btn:hover{
+     background-color: var(--color2);
+     color: var(--color3);
+ }
+
 /* Footer */
 
 footer {
@@ -561,6 +697,22 @@ footer {
           display: flex;
           flex-wrap: wrap;
      }
+
+     .projects-item {
+          display: flex
+      ;
+          width: 88%;
+          margin: 10px;
+          padding: 10px;
+          background-color: #fff;
+          border: 1px solid #ddd;
+          border-radius: 8px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          text-align: center;
+          align-items: flex-start;
+          justify-content: center;
+          flex-direction: column;
+      }
 }
 
 @media (min-width: 2560px) {
