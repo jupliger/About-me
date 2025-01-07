@@ -45,6 +45,7 @@ header {
      width: 100%;
      box-sizing: border-box;
      z-index: 1000;
+     height:80px
 }
 
 header h2 {
@@ -78,19 +79,21 @@ header h2 {
      font-size: 24px;
      cursor: pointer;
 }
-.flag-container{
+
+.flag-container {
      gap: 26px;
      display: flex;
      align-items: center;
      justify-content: space-evenly;
 }
 
-#flag{
+#flag {
      width: 20px;
 }
+
 #flag:hover {
      border: 1px solid #F2529D;
- }
+}
 
 #logo {
      width: 65px;
@@ -529,73 +532,73 @@ button:hover {
      justify-content: center;
      align-content: center;
      padding: 0 0 30px 0;
- }
- 
- .projects-item {
+}
+
+.projects-item {
      display: flex;
-         width: 45%;
-         margin: 10px;
-         padding: 10px;
-         background-color: #fff;
-         border: 1px solid #ddd;
-         border-radius: 8px;
-         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-         text-align: center;
-         align-items: flex-start;
-         justify-content: space-evenly;
-         flex-direction: column;
-        
- }
- 
- .projects-imgs {
+     width: 45%;
+     margin: 10px;
+     padding: 10px;
+     background-color: #fff;
+     border: 1px solid #ddd;
+     border-radius: 8px;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     text-align: center;
+     align-items: flex-start;
+     justify-content: space-evenly;
+     flex-direction: column;
+
+}
+
+.projects-imgs {
      width: 100%;
- }
- 
- .projects-imgs-ideia {
+}
+
+.projects-imgs-ideia {
      width: 20%;
- }
- 
- .Projects h3 {
+}
+
+.Projects h3 {
      font-weight: 800;
      font-size: 25px;
      margin-bottom: 20px;
      color: var(--color3);
- }
+}
 
- .Projects h2 {
+.Projects h2 {
      font-weight: 800;
      font-size: 25px;
      margin-bottom: 20px;
      color: var(--color3);
      margin-top: 25px;
- }
+}
 
- .project-textContent {
+.project-textContent {
      display: flex;
      flex-wrap: wrap;
      flex-direction: row;
      justify-content: center;
- }
- 
- .project-description {
+}
+
+.project-description {
      text-align: start;
      margin: 20px 20px 0px 20px;
- }
- 
+}
 
- .project-description strong{
+
+.project-description strong {
      color: var(--color4);
      font-weight: 800;
- }
+}
 
- .highlight{
+.highlight {
      color: var(--color4);
      font-weight: 800;
      margin-left: 20px;
      margin-top: 15px;
- }
+}
 
- .project-tecnologies {
+.project-tecnologies {
      margin-top: 30px;
      font-size: 13px;
      margin-bottom: 10px;
@@ -609,31 +612,31 @@ button:hover {
      justify-content: center;
      flex-wrap: nowrap;
      margin: 9px;
- }
- 
- .projects-tecnologies-container {
+}
+
+.projects-tecnologies-container {
      display: flex;
      flex-direction: row;
      flex-wrap: wrap;
      justify-content: center;
      align-items: flex-start;
      margin-top: 20px;
- }
- 
- .Projects h2 {
+}
+
+.Projects h2 {
      font-weight: 800;
      font-size: 30px;
      margin-bottom: 20px;
      color: var(--color3);
      text-align: center;
- }
+}
 
- .ph-star-fill{
+.ph-star-fill {
      color: var(--color4);
-    font-size: smaller;
- }
+     font-size: smaller;
+}
 
- .see-more-btn{
+.see-more-btn {
      background-color: var(--color3);
      width: 150px;
      height: 40px;
@@ -644,13 +647,13 @@ button:hover {
      border-radius: 8px;
      margin-top: 20px;
      font-size: large;
-     
- }
 
- .see-more-btn:hover{
+}
+
+.see-more-btn:hover {
      background-color: var(--color2);
      color: var(--color3);
- }
+}
 
 /* Footer */
 
@@ -660,6 +663,7 @@ footer {
      text-align: center;
      padding: 10px 0;
 }
+
 /*POP UP*/
 #popup {
      display: none;
@@ -675,8 +679,9 @@ footer {
      flex-direction: column;
      justify-content: center;
      align-items: center;
- }
- #popup-overlay {
+}
+
+#popup-overlay {
      display: none;
      position: fixed;
      left: 0;
@@ -685,24 +690,30 @@ footer {
      height: 100%;
      background-color: rgba(0, 0, 0, 0.5);
      z-index: 999;
- }
-.popup-buttons{
+}
+
+.popup-buttons {
      flex-direction: row;
 }
-#popup h2{
+
+#popup h2 {
      font-weight: 800;
      font-size: 20px;
      color: var(--color3);
      margin-bottom: 15px;
 }
+
 /* Responsividade */
 @media (max-width: 520px) {
 
+     header{
+          height: 80px;
+     }
      .header-container {
           display: none;
      }
 
-     #profile{
+     #profile {
           width: 50%;
           margin-bottom: 20px;
           padding-right: 25px;
@@ -750,41 +761,42 @@ footer {
           display: flex;
           flex-wrap: wrap;
      }
-      .projects-item {
-     display: flex;
-         width: 95%;
-         margin: 10px;
-         padding: 10px;
-         background-color: #fff;
-         border: 1px solid #ddd;
-         border-radius: 8px;
-         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-         text-align: center;
-         align-items: flex-start;
-         justify-content: space-evenly;
-         flex-direction: column;
-        
- }
-}
-@media (min-width: 767px) {
 
      .projects-item {
           display: flex;
-              width: 95%;
-              margin: 10px;
-              padding: 10px;
-              background-color: #fff;
-              border: 1px solid #ddd;
-              border-radius: 8px;
-              box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-              text-align: center;
-              align-items: flex-start;
-              justify-content: space-evenly;
-              flex-direction: column;
-             
-      }
+          width: 95%;
+          margin: 10px;
+          padding: 10px;
+          background-color: #fff;
+          border: 1px solid #ddd;
+          border-radius: 8px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          text-align: center;
+          align-items: flex-start;
+          justify-content: space-evenly;
+          flex-direction: column;
 
-      .sobre img {
+     }
+}
+
+@media (max-width: 769px) {
+     .projects-item {
+          display: flex;
+          width: 95%;
+          margin: 10px;
+          padding: 10px;
+          background-color: #fff;
+          border: 1px solid #ddd;
+          border-radius: 8px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          text-align: center;
+          align-items: flex-start;
+          justify-content: space-evenly;
+          flex-direction: column;
+
+     }
+
+     .sobre img {
           width: 50%;
           height: auto;
           margin-top: 10px;

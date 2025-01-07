@@ -60,6 +60,11 @@ window.onload = function () {
 function goToEnglish() {
   window.location.href = "english.html"
 }
+
+function goToPortuguese() {
+  window.location.href = "index.html"
+}
+
 window.onload = function () {
   openPopup();
 }
