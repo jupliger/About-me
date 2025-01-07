@@ -17,10 +17,30 @@
 
 <body>
      <main>
+          <div id="popup-overlay"></div>
+          <div id="popup">
+               <h2>Welcome to my portifolio!</h2>
+               <p>Please, select the language:</p>
+               <div class="popup-buttons">
+                    <button onclick="closePopup()">Portuguese</button>
+                    <button onclick="goToEnglish()">English</button>
+               </div>
+          </div>
+
           <header>
-               <a href="#" onclick="location.reload();">
-                    <img id="logo" src="./assets/logo.png" alt="Logo" />
-               </a>
+               <div class="flag-container">
+                    <a href="#" onclick="location.reload();">
+                      <img id="logo" src="./assets/logo.png" alt="Logo" />
+                    </a>
+                   
+                      <a href="/index.html">
+                        <img id="flag" src="./assets/brazil.png" alt="Portuguese" />
+                      </a>
+                      <a href="/english.html">
+                        <img id="flag" src="./assets/us.png" alt="English" />
+                      </a>
+                    </div>
+                    
                <div class="header-container">
                     <a href="#Projetos">Projetos</a>
                     <a href="#skills">Skills</a>
